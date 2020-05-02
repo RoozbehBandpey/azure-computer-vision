@@ -11,9 +11,12 @@ namespace OCRVisionApp
 {
     class OCRVision
     {
-        //static void Main(string[] args)
-        //{
-        //    Console.WriteLine("Hello World!");
-        //}
+        public static ComputerVisionClient Authenticate(string endpoint, string key)
+        {
+            ComputerVisionClient client =
+              new ComputerVisionClient(new ApiKeyServiceClientCredentials(key))
+              { Endpoint = endpoint };
+            return client;
+        }
     }
 }
