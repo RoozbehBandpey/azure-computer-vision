@@ -8,7 +8,12 @@ namespace OCRVisionApp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string subscriptionName = Environment.GetEnvironmentVariable("COGNITIVE_SERVICE_NAME");
+            string endpoint = Environment.GetEnvironmentVariable("COGNITIVE_SERVICE_ENDPOINT");
+            string key = Environment.GetEnvironmentVariable("COGNITIVE_SERVICE_KEY");
+            Console.WriteLine(subscriptionName);
+            Console.WriteLine(endpoint);
+            Console.WriteLine(key);
         }
     }
 }
