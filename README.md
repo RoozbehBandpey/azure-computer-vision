@@ -12,8 +12,20 @@ To set the environment variable, open a console window, and follow the instructi
 ```powershell
 setx COGNITIVE_SERVICE_KEY "your-key"
 ```
-The preferred way of storing such secrets for development is creating local.settings.json
+The preferred way of storing such secrets for development is creating local.settings.json. Once your application is deployed these keys need to be either red from Azure Keyvaults or Azure DevOps variable groups
 
-Or run SetEnvVars.cs with argument pointing at local.settings.json
+Run SetEnvVars.cs with argument pointing at local.settings.json
+Such file is structured as follows:
+
+```json
+{
+  "IsEncrypted": false,
+  "Values": {
+    "COGNITIVE_SERVICE_NAME": "kinda secretish",
+    "COGNITIVE_SERVICE_ENDPOINT": "secret",
+	"COGNITIVE_SERVICE_KEY": "Woooiii very secret"
+  }
+}
+```
 
 Restart your IDE
