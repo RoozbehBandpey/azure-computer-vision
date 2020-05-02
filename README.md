@@ -12,7 +12,7 @@ To set the environment variable, open a console window, and follow the instructi
 ```powershell
 setx COGNITIVE_SERVICE_KEY "your-key"
 ```
-The preferred way of storing such secrets for development is creating local.settings.json. Once your application is deployed these keys need to be either red from Azure Keyvaults or Azure DevOps variable groups
+The preferred way of storing such secrets for development is creating local.settings.json. Once your application is deployed these keys need to be either red from Azure Keyvaults or Azure DevOps variable groups, for both cases make sure you turned on system assigned identity.
 
 Run SetEnvVars.cs with argument pointing at local.settings.json
 Such file is structured as follows:
