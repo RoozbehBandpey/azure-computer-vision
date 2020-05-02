@@ -38,3 +38,22 @@ https://docs.microsoft.com/en-us/azure/cognitive-services/authentication
 
 
 Plus with postman
+
+
+
+### Common development errors
+While importing 
+```C#
+using Microsoft.Azure.CognitiveServices.Vision.ComputerVision;
+```
+Or
+```C#
+using Microsoft.Azure.CognitiveServices.Vision.ComputerVision.Models;
+```
+You might get
+```
+Error	CS0234	The type or namespace name 'Azure' does not exist in the namespace 'Microsoft' (are you missing an assembly reference?)
+```
+
+#### Fix
+Make sure you have latest version of .Net Core SDKs both visual studio and runtime from [Download .NET SDKs for Visual Studio](https://dotnet.microsoft.com/download/visual-studio-sdks)
