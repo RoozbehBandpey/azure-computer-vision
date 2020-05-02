@@ -59,3 +59,8 @@ Error	CS0234	The type or namespace name 'Azure' does not exist in the namespace 
 Make sure you have latest version of [.Net Core SDKs](https://dotnet.microsoft.com/download/visual-studio-sdks) both visual studio and runtime
 
 Make sure you have latest version of [Computer Vision NuGet package](https://www.nuget.org/packages/Microsoft.Azure.CognitiveServices.Vision.ComputerVision/) installed
+
+Run the following command in PowerShell to get it \o/
+```Powershell
+dotnet add package Microsoft.Azure.CognitiveServices.Vision.ComputerVision --version 5.0.0
+```
