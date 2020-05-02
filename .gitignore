@@ -352,3 +352,6 @@ MigrationBackup/
 
 
 local.settings.json
+
+#the legendary vscode IDE
+.vscode
