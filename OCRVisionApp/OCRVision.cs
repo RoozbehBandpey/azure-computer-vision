@@ -2,7 +2,7 @@
 
 namespace OCRVisionApp
 {
-    class Program
+    class OCRVision
     {
         static void Main(string[] args)
         {
