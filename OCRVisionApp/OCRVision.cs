@@ -183,11 +183,39 @@ namespace OCRVisionApp
             // Analyze the URL image 
             ImageAnalysis results = await client.AnalyzeImageAsync(imageUrl, features);
 
-            //ShowResults(results);
+            ShowResults(results);
             string fileName = $"{Path.GetFileName(imageUrl)}.json";
             SaveJson(results, fileName);
+        }
 
-           
+        public static async Task AnalyzeImageLocal(ComputerVisionClient client, string localImage)
+        {
+            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine("ANALYZE IMAGE - LOCAL IMAGE");
+            Console.WriteLine();
+
+            // Creating a list that defines the features to be extracted from the image. 
+            List<VisualFeatureTypes> features = new List<VisualFeatureTypes>()
+            {
+                VisualFeatureTypes.Categories, VisualFeatureTypes.Description,
+                VisualFeatureTypes.Faces, VisualFeatureTypes.ImageType,
+                VisualFeatureTypes.Tags, VisualFeatureTypes.Adult,
+                VisualFeatureTypes.Color, VisualFeatureTypes.Brands,
+                VisualFeatureTypes.Objects
+            };
+
+            Console.WriteLine($"Analyzing the local image {Path.GetFileName(localImage)}...");
+            Console.WriteLine();
+
+            using (Stream analyzeImageStream = File.OpenRead(localImage))
+            {
+                // Analyze the local image.
+                ImageAnalysis results = await client.AnalyzeImageInStreamAsync(analyzeImageStream, features);
+
+                ShowResults(results);
+                string fileName = $"{Path.GetFileName(localImage)}.json";
+                SaveJson(results, fileName);
+            }
         }
     }
 }

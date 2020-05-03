@@ -23,7 +23,9 @@ namespace OCRVisionApp
 
             string ANALYZE_URL_IMAGE = "https://moderatorsampleimages.blob.core.windows.net/samples/sample16.png";
 
-            OCRVision.AnalyzeImageWithUrl(client, ANALYZE_URL_IMAGE).Wait();
+            //OCRVision.AnalyzeImageWithUrl(client, ANALYZE_URL_IMAGE).Wait();
+            string localImage = "C:/Users/r.bandpey/source/repos/azure-computer-vision/OCRVisionApp/InputImages/TestImages/Farmer_meme.jpg";
+            OCRVision.AnalyzeImageLocal(client, localImage).Wait();
         }
     }
 }
