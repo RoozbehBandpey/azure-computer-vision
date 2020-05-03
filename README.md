@@ -64,3 +64,6 @@ Run the following command in PowerShell to get it \o/
 ```Powershell
 dotnet add package Microsoft.Azure.CognitiveServices.Vision.ComputerVision --version 5.0.0
 ```
+
+
+### [Testing](OCRVisionApp/InputImages/README.md)
