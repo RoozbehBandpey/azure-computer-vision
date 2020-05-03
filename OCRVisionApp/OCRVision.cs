@@ -404,5 +404,50 @@ namespace OCRVisionApp
                 }
             }
         }
+
+        public static async Task RecognizePrintedTextLocal(ComputerVisionClient client, string localImage)
+        {
+            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine("RECOGNIZE PRINTED TEXT - LOCAL IMAGE");
+            Console.WriteLine();
+
+            using (Stream stream = File.OpenRead(localImage))
+            {
+                Console.WriteLine($"Performing OCR on local image {Path.GetFileName(localImage)}...");
+                Console.WriteLine();
+                // Get the recognized text
+                OcrResult localFileOcrResult = await client.RecognizePrintedTextInStreamAsync(true, stream);
+
+                // Display text, language, angle, orientation, and regions of text from the results.
+                Console.WriteLine("Text:");
+                Console.WriteLine("Language: " + localFileOcrResult.Language);
+                Console.WriteLine("Text Angle: " + localFileOcrResult.TextAngle);
+                Console.WriteLine("Orientation: " + localFileOcrResult.Orientation);
+                Console.WriteLine();
+                Console.WriteLine("Text regions: ");
+
+                // Getting only one line of text for testing purposes. To see full demonstration, remove the counter & conditional.
+                int counter = 0;
+                foreach (var localRegion in localFileOcrResult.Regions)
+                {
+                    Console.WriteLine("Region bounding box: " + localRegion.BoundingBox);
+                    foreach (var line in localRegion.Lines)
+                    {
+                        Console.WriteLine("Line bounding box: " + line.BoundingBox);
+                        if (counter == 1)
+                        {
+                            Console.WriteLine();
+                            return;
+                        }
+                        counter++;
+                        foreach (var word in line.Words)
+                        {
+                            Console.WriteLine("Word bounding box: " + word.BoundingBox);
+                            Console.WriteLine("Text: " + word.Text);
+                        }
+                    }
+                }
+            }
+        }
     }
 }
