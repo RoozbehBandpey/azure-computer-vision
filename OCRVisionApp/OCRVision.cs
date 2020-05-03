@@ -238,5 +238,30 @@ namespace OCRVisionApp
             }
             Console.WriteLine();
         }
+
+        public static async Task DetectObjectsLocal(ComputerVisionClient client, string localImage)
+        {
+            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine("DETECT OBJECTS - LOCAL IMAGE");
+            Console.WriteLine();
+
+            using (Stream stream = File.OpenRead(localImage))
+            {
+                // Make a call to the Computer Vision service using the local file
+                DetectResult results = await client.DetectObjectsInStreamAsync(stream);
+
+                Console.WriteLine($"Detecting objects in local image {Path.GetFileName(localImage)}...");
+                Console.WriteLine();
+
+                // For each detected object in the picture, print out the bounding object detected, confidence of that detection and bounding box within the image
+                Console.WriteLine("Detected objects:");
+                foreach (var obj in results.Objects)
+                {
+                    Console.WriteLine($"{obj.ObjectProperty} with confidence {obj.Confidence} at location {obj.Rectangle.X}, " +
+                      $"{obj.Rectangle.X + obj.Rectangle.W}, {obj.Rectangle.Y}, {obj.Rectangle.Y + obj.Rectangle.H}");
+                }
+                Console.WriteLine();
+            }
+        }
     }
 }

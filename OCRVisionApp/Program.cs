@@ -25,10 +25,11 @@ namespace OCRVisionApp
             string DETECT_URL_IMAGE = "https://moderatorsampleimages.blob.core.windows.net/samples/sample9.png";
 
             //OCRVision.AnalyzeImageWithUrl(client, ANALYZE_URL_IMAGE).Wait();
-            //string localImage = "C:/Users/r.bandpey/source/repos/azure-computer-vision/OCRVisionApp/InputImages/TestImages/Farmer_meme.jpg";
+            string localImage = "C:/Users/r.bandpey/source/repos/azure-computer-vision/OCRVisionApp/InputImages/TestImages/Farmer_meme.jpg";
             //OCRVision.AnalyzeImageLocal(client, localImage).Wait();
 
-            OCRVision.DetectObjectsUrl(client, DETECT_URL_IMAGE).Wait();
+            //OCRVision.DetectObjectsUrl(client, DETECT_URL_IMAGE).Wait();
+            OCRVision.DetectObjectsLocal(client, localImage).Wait();
         }
     }
 }
