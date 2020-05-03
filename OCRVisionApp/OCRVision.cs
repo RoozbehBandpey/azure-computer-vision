@@ -19,7 +19,7 @@ namespace OCRVisionApp
             return client;
         }
 
-        private static void SaveJson(ImageAnalysis imageMetadata)
+        private static void SaveJson(ImageAnalysis imageMetadata, string fileName)
         {
             var jsonResults = JsonConvert.SerializeObject(imageMetadata);
             Console.WriteLine(imageMetadata);
@@ -29,6 +29,21 @@ namespace OCRVisionApp
             string MetadataPath = Path.Combine(projectDirectory, "ImageMetadata");
             if (!Directory.Exists(MetadataPath))
                 Directory.CreateDirectory(MetadataPath);
+
+            string JsonFilePath = Path.Combine(MetadataPath, fileName);
+
+            string metadataJson = JsonConvert.SerializeObject(imageMetadata, Formatting.Indented);
+
+            File.WriteAllText(JsonFilePath, metadataJson);
+
+            Console.WriteLine(metadataJson);
+
+            // serialize JSON directly to a file
+            //using (StreamWriter file = File.CreateText(JsonFilePath))
+            //{
+            //    JsonSerializer serializer = new JsonSerializer();
+            //    serializer.Serialize(file, imageMetadata);
+            //}
         }
 
 
@@ -178,8 +193,8 @@ namespace OCRVisionApp
             ImageAnalysis results = await client.AnalyzeImageAsync(imageUrl, features);
 
             //ShowResults(results);
-
-            SaveJson(results);
+            string fileName = $"{Path.GetFileName(imageUrl)}.json";
+            SaveJson(results, fileName);
 
            
         }
