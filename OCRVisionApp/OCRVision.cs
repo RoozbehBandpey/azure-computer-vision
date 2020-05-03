@@ -217,5 +217,26 @@ namespace OCRVisionApp
                 SaveJson(results, fileName);
             }
         }
+
+        public static async Task DetectObjectsUrl(ComputerVisionClient client, string urlImage)
+        {
+            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine("DETECT OBJECTS - URL IMAGE");
+            Console.WriteLine();
+
+            Console.WriteLine($"Detecting objects in URL image {Path.GetFileName(urlImage)}...");
+            Console.WriteLine();
+            // Detect the objects
+            DetectResult detectObjectAnalysis = await client.DetectObjectsAsync(urlImage);
+
+            // For each detected object in the picture, print out the bounding object detected, confidence of that detection and bounding box within the image
+            Console.WriteLine("Detected objects:");
+            foreach (var obj in detectObjectAnalysis.Objects)
+            {
+                Console.WriteLine($"{obj.ObjectProperty} with confidence {obj.Confidence} at location {obj.Rectangle.X}, " +
+                  $"{obj.Rectangle.X + obj.Rectangle.W}, {obj.Rectangle.Y}, {obj.Rectangle.Y + obj.Rectangle.H}");
+            }
+            Console.WriteLine();
+        }
     }
 }
