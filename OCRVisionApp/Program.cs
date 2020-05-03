@@ -23,7 +23,7 @@ namespace OCRVisionApp
 
             string ANALYZE_URL_IMAGE = "https://moderatorsampleimages.blob.core.windows.net/samples/sample16.png";
 
-            OCRVision.AnalyzeImageWithUrl(client, ANALYZE_URL_IMAGE);
+            OCRVision.AnalyzeImageWithUrl(client, ANALYZE_URL_IMAGE).Wait();
         }
     }
 }

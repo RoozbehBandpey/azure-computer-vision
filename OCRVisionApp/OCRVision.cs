@@ -40,6 +40,8 @@ namespace OCRVisionApp
             // Analyze the URL image 
             ImageAnalysis results = await client.AnalyzeImageAsync(imageUrl, features);
 
+            Console.WriteLine(results);
+
             // Sunmarizes the image content.
             Console.WriteLine("Summary:");
             foreach (var caption in results.Description.Captions)
