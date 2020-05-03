@@ -6,5 +6,9 @@ namespace OCRVisionApp.Lib
 {
     class SetEnvVars
     {
+        public static bool AppendVars(string path)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
