@@ -368,5 +368,41 @@ namespace OCRVisionApp
                 Console.WriteLine();
             }
         }
+
+        public static async Task RecognizePrintedTextUrl(ComputerVisionClient client, string imageUrl)
+        {
+            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine("RECOGNIZE PRINTED TEXT - URL IMAGE");
+            Console.WriteLine();
+
+            Console.WriteLine($"Performing OCR on URL image {Path.GetFileName(imageUrl)}...");
+            Console.WriteLine();
+
+            // Perform OCR on image
+            OcrResult remoteOcrResult = await client.RecognizePrintedTextAsync(true, imageUrl);
+
+            // Print the recognized text
+            Console.WriteLine("Text:");
+            Console.WriteLine("Language: " + remoteOcrResult.Language);
+            Console.WriteLine("Text Angle: " + remoteOcrResult.TextAngle);
+            Console.WriteLine("Orientation: " + remoteOcrResult.Orientation);
+            Console.WriteLine();
+            Console.WriteLine("Text regions: ");
+            foreach (var remoteRegion in remoteOcrResult.Regions)
+            {
+                Console.WriteLine("Region bounding box: " + remoteRegion.BoundingBox);
+                foreach (var line in remoteRegion.Lines)
+                {
+                    Console.WriteLine("Line bounding box: " + line.BoundingBox);
+
+                    foreach (var word in line.Words)
+                    {
+                        Console.WriteLine("Word bounding box: " + word.BoundingBox);
+                        Console.WriteLine("Text: " + word.Text);
+                    }
+                    Console.WriteLine();
+                }
+            }
+        }
     }
 }
