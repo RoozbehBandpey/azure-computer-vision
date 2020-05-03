@@ -37,6 +37,24 @@ namespace OCRVisionApp
             File.WriteAllText(JsonFilePath, metadataJson);
         }
 
+        private static void SaveJsonOCR(ReadOperationResult imageMetadata, string fileName)
+        {
+            var jsonResults = JsonConvert.SerializeObject(imageMetadata);
+            Console.WriteLine(imageMetadata);
+            string workingDirectory = Environment.CurrentDirectory;
+            string projectBinDirectory = Directory.GetParent(workingDirectory).Parent.FullName;
+            string projectDirectory = Directory.GetParent(projectBinDirectory).FullName;
+            string MetadataPath = Path.Combine(projectDirectory, "ImageMetadata");
+            if (!Directory.Exists(MetadataPath))
+                Directory.CreateDirectory(MetadataPath);
+
+            string JsonFilePath = Path.Combine(MetadataPath, fileName);
+
+            string metadataJson = JsonConvert.SerializeObject(imageMetadata, Formatting.Indented);
+
+            File.WriteAllText(JsonFilePath, metadataJson);
+        }
+
 
         private static void ShowResults(ImageAnalysis imageMetadata)
         {
@@ -366,6 +384,9 @@ namespace OCRVisionApp
                     }
                 }
                 Console.WriteLine();
+
+                string fileName = $"{Path.GetFileName(localImage)}.json";
+                SaveJsonOCR(results, fileName);
             }
         }
 

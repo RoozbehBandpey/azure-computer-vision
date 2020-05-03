@@ -27,7 +27,7 @@ namespace OCRVisionApp
 
             //OCRVision.AnalyzeImageWithUrl(client, ANALYZE_URL_IMAGE).Wait();
             string localImage = "C:/Users/r.bandpey/source/repos/azure-computer-vision/OCRVisionApp/InputImages/TestImages/Farmer_meme.jpg";
-            string localLetterImage = "";
+            string localLetterImage = "C:/Users/r.bandpey/source/repos/azure-computer-vision/OCRVisionApp/InputImages/imagesa/aaa00a00/60008366.tif";
             var localLetterMetadata = "";
             //OCRVision.AnalyzeImageLocal(client, localImage).Wait();
 
@@ -36,7 +36,9 @@ namespace OCRVisionApp
             //OCRVision.BatchReadFileUrl(client, EXTRACT_TEXT_URL_IMAGE).Wait();
             //OCRVision.BatchReadFileLocal(client, localImage).Wait();
             //OCRVision.RecognizePrintedTextUrl(client, EXTRACT_TEXT_URL_IMAGE).Wait();
-            OCRVision.RecognizePrintedTextLocal(client, localImage).Wait();
+            //OCRVision.RecognizePrintedTextLocal(client, localImage).Wait();
+
+            OCRVision.BatchReadFileLocal(client, localLetterImage).Wait();
         }
     }
 }
