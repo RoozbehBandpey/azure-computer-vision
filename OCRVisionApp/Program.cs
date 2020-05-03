@@ -23,13 +23,15 @@ namespace OCRVisionApp
 
             string ANALYZE_URL_IMAGE = "https://moderatorsampleimages.blob.core.windows.net/samples/sample16.png";
             string DETECT_URL_IMAGE = "https://moderatorsampleimages.blob.core.windows.net/samples/sample9.png";
+            string EXTRACT_TEXT_URL_IMAGE = "https://moderatorsampleimages.blob.core.windows.net/samples/sample2.jpg";
 
             //OCRVision.AnalyzeImageWithUrl(client, ANALYZE_URL_IMAGE).Wait();
             string localImage = "C:/Users/r.bandpey/source/repos/azure-computer-vision/OCRVisionApp/InputImages/TestImages/Farmer_meme.jpg";
             //OCRVision.AnalyzeImageLocal(client, localImage).Wait();
 
             //OCRVision.DetectObjectsUrl(client, DETECT_URL_IMAGE).Wait();
-            OCRVision.DetectObjectsLocal(client, localImage).Wait();
+            //OCRVision.DetectObjectsLocal(client, localImage).Wait();
+            OCRVision.BatchReadFileUrl(client, EXTRACT_TEXT_URL_IMAGE).Wait();
         }
     }
 }

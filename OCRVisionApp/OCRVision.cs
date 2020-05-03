@@ -263,5 +263,58 @@ namespace OCRVisionApp
                 Console.WriteLine();
             }
         }
+
+        public static async Task BatchReadFileUrl(ComputerVisionClient client, string urlImage)
+        {
+            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine("BATCH READ FILE - URL IMAGE");
+            Console.WriteLine();
+
+            // Read text from URL
+            BatchReadFileHeaders textHeaders = await client.BatchReadFileAsync(urlImage);
+            // After the request, get the operation location (operation ID)
+            string operationLocation = textHeaders.OperationLocation;
+            // </snippet_extract_call>
+
+            // <snippet_extract_response>
+            // Retrieve the URI where the recognized text will be stored from the Operation-Location header.
+            // We only need the ID and not the full URL
+            const int numberOfCharsInOperationId = 36;
+            string operationId = operationLocation.Substring(operationLocation.Length - numberOfCharsInOperationId);
+
+            // Extract the text
+            // Delay is between iterations and tries a maximum of 10 times.
+            int i = 0;
+            int maxRetries = 10;
+            ReadOperationResult results;
+            Console.WriteLine($"Extracting text from URL image {Path.GetFileName(urlImage)}...");
+            Console.WriteLine();
+            do
+            {
+                results = await client.GetReadOperationResultAsync(operationId);
+                Console.WriteLine("Server status: {0}, waiting {1} seconds...", results.Status, i);
+                await Task.Delay(1000);
+                if (i == 9)
+                {
+                    Console.WriteLine("Server timed out.");
+                }
+            }
+            while ((results.Status == TextOperationStatusCodes.Running ||
+                results.Status == TextOperationStatusCodes.NotStarted) && i++ < maxRetries);
+            // </snippet_extract_response>
+
+            // <snippet_extract_display>
+            // Display the found text.
+            Console.WriteLine();
+            var textRecognitionLocalFileResults = results.RecognitionResults;
+            foreach (TextRecognitionResult recResult in textRecognitionLocalFileResults)
+            {
+                foreach (Line line in recResult.Lines)
+                {
+                    Console.WriteLine(line.Text);
+                }
+            }
+            Console.WriteLine();
+        }
     }
 }
