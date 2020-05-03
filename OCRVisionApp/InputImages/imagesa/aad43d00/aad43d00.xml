@@ -1,0 +1,1210 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<LTDLWOCR>
+<!-- forcebtag -->
+<tid>aad43d00</tid>
+<bt>512175274/5301</bt>
+<au>CLAPP WL;MCGEE CD;MUNOZ JA;OCONNOR LH;RIDINGS AV;YOUNG HJ;PRODUCT DEVELOPMENT;SOHN EJ;PERFETTI TA;HODGE BT;BURGER FT</au>
+<bx>RJRC3553</bx>
+<!-- Note:b:NON-RJR BRANDS-->
+<pc>I ELW;EHMANN CW;BURGER GT;BORSCHKE AJ;HARDIN RV;TINSLEY CE III;BLIXT CA;WILLARD RL;PHILLIPS JD;DEBETHIZY JD;WHEELER JP;SELLERS FO;SUBER RL;CURTIS LE;DAHNE WD;LIBRARY;CLAPP WL;MUNOZ JA;OCONNOR LH;RIDINGS AV;SOHN EJ;YOUNG HJ;MCGEE CD;PERFETTI TA;HODGE BT;WALKER VC;FOY BT;DUFOUR WM;CULP GD;COOK WR;JACOB SW;LUFFMAN WC;PORTER TJ;ARMSTRONG ST;SMITH SL;BROWN TW;HICKMAN TL;ANDRESEN NP;WILHELM DE;MARTIN TG;LAMONDS DI;MITCHELL JS;GUESS HE;BEESON DH;WILLIAMS EL</pc>
+<!-- Note:rn t="p":1RFP129-->
+<dd>19940211</dd>
+<dt>FORMAL R&amp;D REPORT</dt>
+<!-- Note:co:Y-->
+<np>RJR;PHILIP MORRIS;YOUNG HJ;BURGER GT;HAUNI;MORGAN W;CALLESON ;CLAPP WL;MORGAN WT</np>
+<!-- Note:dl:19990615-->
+<pg>28</pg>
+<!-- Note:rn t="m":MINNESOTA 1RFP129-->
+<!-- Note:sh:19970217-->
+<!-- Note:s:MANUFACTURING;TOBACCO PROCESSING;WILLIAMS L-->
+<ti>PD 94-042. THE EFFECT OF CIGARETTE MAKING ON TOBACCO BLENDS CONTAINING PROCESSED TOBACCOS.</ti>
+<dl>20020201</dl>
+<ot>reduced as the inclusion level was increased. In fact, reductions of 10-15% in weight, while
+achieving comparable firinnesses were the norm in this t.est. For G7 and CRES, however, the
+Figure 7.
+Before Makii!9 Filling Values
+600
+/~ 650
+.~
+600
+400
+-_-~~-_ 10 20
+Inclusion Level
+r--0 07 -a-- O 19 -a-- CRES --SPS
+t-- -----_.---------
+30
+Figure 8.
+After Making Filli&gt;&lt;g yalues
+400
+660
+450
+600
+0
+10
+'----~_.
+20
+t
+30
+40
+40
+Inclusion Level
+--0Ci7 -o-019 --CRES -«-SP
+~ -- - ------~
+13
+
+pgNbr=1
+SUMMARY OU'I'PUT	G7 Longs				
+Regression Statistics __				
+Multiple R
+R Square
+Adjusted R Square
+Standard Error
+Observations	0.352677512
+0.124381428
+-0.16749143
+0.036790236
+5				
+ANOVA					
+	df __~SS ~ ,	A1S	F	Significance F	
+Regression
+Residual
+Total	1 0.000576802
+3 0.004060564
+4 0.004637367	0.000577
+0.001354	0.426149	0.560447706	
+					
+	Coecients_Standard Error	t Stat	P-value	Lower 95%	Upper 95%
+Intercept	0.71791874 0.028497594	25.19226	0.000137	0.627226592	0.808610888
+% Inclusion	0.000759475 0.001163409	0.652801	0.560448	-0.002943016	0.004461966
+SUMMARY OUTPUT
+Rg ression Statistics __
+Multiple R 0.804942389
+R Square 0.647932249
+Adjusted It Square 0.530576333
+Standard Error 0.024961153
+Observations 5
+
+ANOVA
+Regression
+Residual
+Total
+Intercept	0.65778068	0.019334826	34.02051
+% Inclusion	0.001854714	0.000789341	2.349699
+G19 Longs
+3
+4
+SS _ A1S F Significance F
+0.003439964 0.00344 5.521087 0.100333186
+0.001869178 0.000623
+0.005309142
+_ ~ Coe rcients Standard Error t Stat P-value Lower 95% Upper 95%
+5.58E-05 0.596248576 0.719312784
+0.100333 -0.000657324 0.004366752
+25
+
+pgNbr=2
+and the highest level of fines. However, CRES material which will be produced on the new line at
+Tobaccoville is eaq)ected to be a much improved product over this which was produced on the
+temporary line at Shed 113. This new CRES could certainly be tested under the same test protocol
+to verify that the improvements are realized through the maker.
+Although limited data were obtained on finished cigarette characteristics other than particle
+size, G19 and SPS were found to contribute in a positive manner to filling values and weight
+reductions in the finished cigarettes, whereas, the G7 and CRES materials used in this study
+contributed little in either a positive or a negative manner.
+It is recommended from this work and earlier studies cited in this report, that careful
+attention be given to the integrity of our processed tobaccos and the extent to which they may be
+degraded by the making process. An increase in longs and a decrease in fines in the finished products
+should result in a blend with increased filling values and may generate cost savings through the
+resulting changes in the quantities of the strip tobaccos in the blend. In any event, a more detailed
+study should be conducted on the high speed makers in Manufacturing to determine the validity of
+these findings.
+STATUS: This phase ofthe work is complete. Additional work is planned to quantify the
+individual and interactive effects of each of the processed tobaccos used in Company blends from
+initial processing through making on a Protos unit, and on opportunities to improve G7 sheet
+strength and cutting.
+KEYWORDS: G7-1, G19-1, CRES, DIET, puffed stems; particle size distribution, sieve analyses,
+burn rate, cylinder filling value, tobacco analyses, smoke analyses, cigarette analyses, strand•length.
+2
+
+pgNbr=3
+Overall, increasing the level of G7 had no detrimental effect on finished cigarette properties observed
+here relative to the control blend. Increasing levels of G19, CRES, and SPS resulted in worsening
+particle size distribution than the control blend, while G19 and SPS resulted in improved filling
+capacity, reduced weight and increased draft. G19, CRES, and SPS also resulted in increased burn
+rate and reduced pufl'count.
+Walter T. Morgan
+22
+
+pgNbr=4
+SUMMARY OUTPUT
+Re ression Statistics
+~--- -		
+Multiple R	0.726319536		
+R Square	0.527540069		
+Adjusted R Square	0.370053425		
+Standard Error	0.23815964		
+Observations	5		
+ANOVA			
+	df __	SS	MS
+Regression	1	_
+0.189997574	0.189998
+Residual	3	0.170160043	0.05672
+Total	4	0.360157616	
+
+_ -	Coe rcients Standard Error	t Stat
+Intercept	2.075131294	0.184477664	11.24869
+% Inclusion	-0.01378396	0.007531269	-1.83023
+SUMMARY OUTPUT
+Re~;ression Statistics __
+Multiple R 0.709340707
+R Square 0.503164239
+Adjusted R Square 0.337552319
+Standard Error 0.204485054
+Observations 5
+ANOVA
+CRES Fines
+F Signifrcance F
+3.349745 0.164631899
+P-value Lower 95% Upper 95%
+0.001506 1.488040483 2.662222105
+0.164632 -0.037751843 0.010183921
+SPS Fines
+SS
+__ _
+df
+MS F Significance F
+Regression
+Residual
+Total	1
+3
+4	0.127040243
+0.125442412
+0.252482654	0.127040243
+0.041814137	3.038212697	0.179682057
+					
+_ -_~-	Coe reient.c ,S'tandard Error	t Stal		P-value	Lower 95%
+Intercept	1.854169507	0.158393442	11.70610025	0.001339494	1.350090411
+% Inclusion	-0.011271213	0.006466385		- 0.179682057	-0.031850156
+1.743046958
+Upper 95%
+2.358248602
+0.00930773
+28
+
+pgNbr=5
+l)ish ibution:
+Cover Page Only:
+I)r. C. W. Ehmann
+Dr. G. T. Burger
+Mr. A. J. Borschke
+Mr. R. V. Hardin
+Mr. C. E. Tinsley, III
+Mr. C. A. Blixt
+Mr. R. L. Willard
+Mr. J. D. Phillips
+Dr. J. D. deBethizy
+Ms. J. P. Wheeler
+Mr. F. O. Sellers
+Dr. R. L. Suber
+Ms. L. (_. Curtis
+Mr. W. D. Dahne
+17
+Complete Copy:
+Library (original)
+W. L. Clapp
+J. A. Munoz
+L. H. O'Connor
+A. V. Ridings
+E. J. Sohn
+H. J. Young
+C. D. McGee
+T. A. Perfetti
+B. T. Hodge
+V. C. Walker
+B. T. Foy
+W. M. Dufour
+G. D. Culp
+W. R. Cook
+S. W. Jacob
+W. C. Luffinan
+T. J. Porter
+S. T. Armstrong
+S. L. Smith
+T. W. Brown
+T. L. Hickman
+N. P. Andresen
+D. E. Wilhelm
+T. G. Martin
+D. I. Lamonds
+J. S. Mitchell
+H. E. Guess
+D. H. Beeson
+E. L. Williams
+
+pgNbr=6
+retained on 6 mesh and 10 mesh screens), "middlings" (% retained on 14 mesh and 20 mesh screens)
+and "fines" (% passed through a 20 mesh screen). A second portion of each of these tobacco
+samples was collected and used for moisture and cylinder filling volume determinations.
+DISCIISSION:
+Strand Length Distribution
+Table III shows the results from determinations of longs, middlings and fines (by sieve
+analyses) for each of the processed tobaccos as well as blends of each of the different processed
+tobaccos with the control cut filler. Each of the values in Table III are the result of at least two
+determinations, and in the case of the control cut filler blend are the result of five determinations.
+~ .		
+Lon s %	
+M'ttitlli s %	
+7ri ~ics %
+Test Leg	%	
+I3et'ore~	
+After-	
+
+13eforc-	
+
+Aftcr-	:~efore-	Aftcr- '
+_	L~cli~siAxr	
+Maki~
+_	
+JYit~ki~l	
+lY,I '	
+N1[a.ldn	~altiu	1Vl&lt; _ '
+C_ontrol_
++	0%	63	42	32	47	5.3	10
+	10%	63	48	31	44	5.7	8.1
+	20%	69	52	28	40	3.1	7.4
+G7-1	30%	65	48	31	44	4.2	8.2
+	40%	73	53	26	40	1.2	6.6
+_
+Y	100%	65	-	32		2.9	
+	10%	69	46	27	44	4.1	9.7
+	20%	57	38	35	48	7.7	14
+G19-1	30%	56	39	35	46	9.4	15
+	40%	49	37	38	47	12	15
+_
+~ ~	100%	26 _		52		23	
+	10%	60	39	34	50	5.9	13
+	20%	56	35	36	50	8.5	15
+CRES*	30%	42	25	43	53	15 ..	21
+	40%	40	20	44	54	16	27
+- -	100%	23
+--
+-		52		24	
+	10%	60	_
+40	33	48	6.8	12
+	20%	55	39	37	48	8.0	13
+SPS**	30%	57	46	36	45	7.7	9.7
+	40%	55	37	37	49	8.2	13
+.
+	100%	44		47		9.9	
+Table III
+Cut Filler Sieve Anal ses
+
+
+
+*Cut rolled expanded stems
+* *Shredded cut puffed (DIET) stems
+Analyses of the data in Table III by Walt Morgan have lead to the following observations
+regarding statistical significance of the data in this table:
+5
+
+pgNbr=7
+A. simple way to examine these blends then is to divide the value for after-making longs by
+the value for the before-making longs at each inclusion level and to plot these values against the
+inclusion level. If the impact of the maker on the longs in the two types of tobacco, control and
+processed tobacco, is identical, then a constant value should result, i.e., a plot of zero slope. A
+positive slope for this plot would indicate the longs in the control blend are preferentially degraded (a
+positive survival rate for the processed tobacco component), and a negative slope would indicate the
+longs in the processed tobacco component are preferentially degraded (a negative survival rate for
+the processed tobacco component.). Such plots have been carried out for the four types of processed
+tobaccos and their blends with the control and are shown in Figure 3-6. For all but the CRES
+Figure 3.
+G7 Longs Survival Rate
+1
+0.8
+0
+Ratio
+......... ....................... ...... ........... ......................
+- .. ............. _ .... ........................... ---- x --- ---K------
+0.6
+0.4
+0.2
+0 10 20 30 40 50
+% Inclusion
+-x-After-Making to Before-Making Ratio
+Figure 4.
+G19 Loqgs Survival Rate
+1
+Ratio
+0.8
+x
+0.6
+0.4
+0.2
+x
+............. ............. _......... ............. .......... .............. ...... ..................................
+.. ...... .......... ......... ... .....__ ._.._............ ..._..._....... ......... _.......................__......_....._............. ..........
+.............._............ _.._................................................ ..................... ............................... ....... ...
+0L
+0
+10
+20 30 40 50
+% Inclusion
++=After-Making to Before-Making Longs Ratio
+9
+
+pgNbr=8
+processed tobaccos used in this study were G7 prepared with the G7-1 formulation on the
+Fourdrinier line at shed 181 and cut at a width of 16 cuts per inch and a length of 1.0 inch, G19-1
+and CRES (conditioned, rolled, cut at 160 cpi. and expanded stems). In addition, cut puffed stems
+(prepared by conditioning, cutting at 93 cuts per inch, drying to 20-25% moisture, and DIET-
+ea7)anding at Tobaccoville), that were shredded through a Winsmith 920 shredder were also tested;
+this stein sample will be referred to as SPS in this report. Appropriate mixtures of finished tobacco
+blends were then carefully prepared by combining mixed and weighed portions of the control cut
+filler blend with mixed and weighed portions of the four types of processed tobaccos to obtain final
+blends containing between 10 and 40% of the processed tobaccos. Cigarettes were made from each
+of the blends, including the control blend, on the Hauni pilot maker in the Cigarette Fabrication
+Laboratory. All were made to a 69-mm rod length, unfiltered, with Standard Grade 454 (item ID
+004-4890) cigarette paper. Weights, firYmiesses, circumferences and drafts were measured on the
+finished products. Table 11 contains the summary information from these measurements.
+Blend	
+_
+% inclusion	
+Weight, gms	
+Cjtrcuniiere~aee,	I~rimess	Draft, mnl
+		((orrected
+for	
+~
+wl	(Corrected for	
+		drcundorence &amp;		dreuntferol-co	
+~_--~		
+~ tirntness &gt;'	~	moisturb	
+Control	
+N/A	
+1.032	24.67	10.34	45.3
+	10	1.014	24.81	8.91	69.2
+G7•-l	20	1.044	24.68	11.86	52.5
+	30	1.072	24.66	9.55	65.6
+	40	1.077	24.73	10.89	57.0
+	10	0.962	24.74	9.25	76.0
+G 19-1	20	0.889	24.70	9.42	96.2
+	30	0.913	24.67	8.64	120.4
+	40	0.829	24.75	9.34	103.0
+	10	0.945	24.81	7.57	34.8
+CRES*	20	0.991	24.77	9.74	36.7
+	30	0.942	24.69	9.24	38.7
+	40	0.949	24.76	9.29	39.1
+	10	1.024	24.75	11.80	36.2
+SPS**	20	0.862	24.73	9.65	35.9
+	30	0.937	24.78	11.64	97.2
+	40	0.839	24.72	9.37	107.1
+*Cut rolled expanded stems (] 60 cpi)
+**Shredded cut puffed (DIET) stems (93 cpi)
+Samples were collected ofthe "before making" and "after making" cut filler for each of the
+test parls shown in Table 11. In the latter case, cigarettes were slit and the tobacco removed. Each
+of these samples were then sieved on a Tyler Model B Ro-Tap (Combustion Engineering, Inc.) using
+a set of 5 screens ranging from Tyler 6 mesh to Tyler 28 mesh. The fractions collected on each sieve
+screen were weighed and these weights were used to determine the percentages of "longs" (%
+Table II
+Finished Ci~arette Characteristics
+
+
+
+
+4
+
+pgNbr=9
+making were significant. The +6 mesh fraction of longs was the most severely reduced, in the worst
+case being reduced by about. 90%. He also found that fines were increased, in the worst case about
+100%. And although the changes in fines and longs were not as great as that found in our work, it is
+important to note that he tested filler cut at 25 cpi (rather than 28 cpi) and used a water tongue for
+Figure 1.
+Before and After Makin Longs with G7
+80.00
+70.00
+Moo
+20.00
+10.00
+0.00
+............ ..__...~:.-..
+_........
+_- ~
+---+------+-
+......~ .._...~ _ ~.-:-.- .._..._ .. ........... .......................__
+0% G7 10% G7 20% G7 30% G7 40% G7 .100% G7
+--"-- Before Making --~- After Making
+T.....
+12.00
+Figure 2.
+Before and After Making Fines with G7
+10.00 ..... _............. ---- . ... ., . ......................... ... ......... _ ......
+s.oo ................_..........,.. -
+
+A.
+M 6.00 1.....__._...._ ............._......_........._...__...
+0
+2.00 -1
+0.00t
+0% G7 10% G7 20% G7 30% G7
+LiIIIIIIIiI'IIIII
+After Maki
+ng
+40% G7
+A
+100% G7
+7
+
+pgNbr=10
+temporary line at Shed 113. This new CRES could certainly be tested under the same test protocol
+to verify that the improvements are realized through the maker.
+Although limited data were obtained on fmished cigarette characteristics other than particle
+size, Gl9 and SPS were found to contribute in a positive manner to filling values and weight
+reductions in the finished cigarettes, whereas, G7 (Fourdrinier-produced) and CRES contributed
+little in either a positive or a negative manner.
+It is recommended from this work and earlier studies cited in this report, that careful
+attention be given to the integrity of our processed tobaccos and the extent to which they may be
+degraded by the making process. An increase in longs and a decrease in fines in the finished products
+should result in a blend with increased filling values and may generate cost savings through the .
+resulting changes in the quantities of the strip tobaccos in the blend. In any event, a more detailed
+study should be conducted on the high speed makers in Manufacturing to determine the validity of
+these findings.
+
+
+William L. Cla
+
+
+Edward J. (Steve) Solm
+-~-V 4'~~Y nl -
+Curti~s!_`GD. McGee
+Accepted:
+Approved:
+Approved:
+0
+Julio
+AM
+r
+/
+~ gela V. Ridings
+Ha ey . o-l/
+Date: ~ ' 1  ~" - '77
+Dat.e: '4 - ;2 &amp;-- /1114
+Date: 3-' -~
+16
+
+pgNbr=11
+l. Before-making longs decreased significantly with inclusion rate for G19, CRES and SPS,
+while the increase observed for G7 was not significant. Differences between the product sets
+depended upon whether the 100% value was included (the complete data set) or not (the
+"restricted" data set). With the complete set, the declines with CRES and G19 were both
+significantly greater than SPS; but with the restricted data set, CRES showed significantly
+greater declines than either 619 or SPS, which were not different.
+2. Before-making fines increased significantly with inclusion rate for G19, CRES and SPS,
+while 67 was not significant. As with longs, when the complete data set was used, the
+increases in fines were greater for CRES and G19 than for SPS; but with the restricted data
+set, CRES increased significantly more than either G19 or SPS.
+3. After-making longs decreased significantly with increasing inclusion rate for G19 and CRES
+and increased significantly for G7, while changes for SPS were not significant. The longs
+decrease was greater for CRES than for any of the other products, and G19 was not
+significantly different from SPS.
+4. Afler-mAking fines increased significantly with increasing inclusion rate for G19, CRES and
+SPS, while the changes for G7 were not significant. The increase for CRES was significantly
+higher than for G19 and SPS, and the increase for G7 was significantly less than the other
+three products.
+5. Changes ui longs (i, e., the difference in before and after-making longs) were not significant
+for any of the materials, and none were different from each other.
+6. Changes in fines increased significantly for CRES but were not significant for the other
+inaterials. (It was noted that the change in fines found at the 40% inclusion level (a 11%
+increase) are driving this finding and that at levels below 30%, this may not be correct.)
+Strand Survival Through the Maker
+Figures 1 and 2 show graphically the impact of cigarette making on longs and fines in blends
+containing G7 from the data in Table III. (It is important to note here that the type of G7 used in
+this study was stronger than G7 currently manufactured at 603. Additionally, it should be
+understood that the width and length were previously optimized at 1/16" by 1".) Since the G7 used
+in this case was of similar longs and fines distribution as the control cut filler blend, the effects on
+longs and fines from blending alone are minimal. The survival of the G7 strands through the maker
+shows a similar trend to that observed with the control cut filler blend, and in fact, of the slopes of
+the lines in Figures 1&amp; 2, only the slope of the after-making longs line is statistically different from
+zero. As such, it is difficult to visualize exactly the impact of the making operation on either the
+longs or the fines in these particular blends.
+In a study carried out in early 1990, Calleson (PD91-004) examined the effect of the maker N
+on strand length distribution and found that particle size reductions from before making to after w
+~
+cn
+N
+J
+6 ~
+
+pgNbr=12
+cooling the Protos unit. Either of these changes would be expected to reduce the degradation at the
+maker. Irurthei7nore, there may be some fundamental differences in the way filler is acted upon by
+the Hauni pilot maker and the Protos unit.
+To understand the effects of any cigarette maker on the tobacco strand lengths in cigarettes
+made with variable levels of the processed tobaccos, it is necessary to look at the tobacco strands in
+the tobacco samples, both before and after making, as a function of the starting blend. If the
+cigarette maker were to act equally on all components of the blend, then the longs in the tobacco
+after making should be affected/reduced in proportion to the longs contributions of the individual
+components. As a consequence, the composition of the longs in the blend after making should be
+exactly the same as the composition of the longs in the blend before making. The same would also
+apply to the middlings and the fines.
+Plots then of the before-making longs and after-making longs versus the blend composition
+would follow equations (l) and (2), respectively, where Lsb equals the longs content of the tobacco
+sample at a particular processed tobacco inclusion level before making; Lsa equals the longs content
+of the tobacco sample at a particular processed tobacco after making; I is the inclusion level of the
+processed tobacco in the blend; and L,b and L, are the longs contents of the control cut filler
+portion of the blend before and after making, respectively.
+(1) I-sb = mbI + Lcb
+(2) I-sa '= nial + Loa
+Such plots would yield straight lines with slopes, ma and mb, dependent upon whether the
+processed tobacco had more longs than the control cut filler blend (a positive slope) or less longs
+than the control cut filler blend (a negative slope). The ratio of values at any inclusion point on these
+two lines (after-makuig longs to before-making longs) would be equal to 1.0 only if the maker had
+no effect on the longs content of the blend, i.e., the after-making longs were equal-to the before-
+making longs. Therefore, the amount the ratio drops below 1.0 is indicative of how much the longs
+are reduced through the maker.
+Ifthe impact of the maker on both the control cut filler portion of the blend and the
+processed tobacco portion of the blend is the same, then the slopes for both equations (1) and (2)
+will be identical. Or put another way, if the slopes for equations (1) and (2) are found to be different,
+then this difference is an indication that the maker acts differently on the two components (cut filler
+and processed tobacco) of the blend. A more positive slope for equation (1) than for equation (2) is
+an indication that the longs in the control blend survive the maker better than the longs in the
+processed tobacco. Conversely, a more positive slope for equation (2) than equation (1) indicates
+the longs in the processed tobacco survive the maker better than the longs in the control blend.
+8
+
+pgNbr=13
+..
+RJR Confidential
+PD REPORT
+AUTHORS: William L. Clapp DATE: February 11, 1994
+Curtis D. McGee
+Julio A. Munoz
+Lila H. O'Connor
+Angela V. Ridings
+Steve Sohn
+Harvey J. Young
+DEPARTMENT: Product Development NOTEBOOK PAGES: None
+DIVISION: Blends &amp; Process Tobacco Technology NO. OF PAGES: 28
+PROGRAM NC).: 0332 REPORT NO.: PD 94-042
+PREVIOUS REPORTS: PD 93-292
+PD 93-348
+The Effect of Cigarette Making on Tobacco Blends Containing Processed Tobaccos
+.
+OBJECTIVE: To measure the effects of the cigarette making operation on the strand length' distribution, burn rate and filling value of the tobacco in the finished cigarettes, and to assess the
+relative importance of processed tobaccos used in the blends on these characteristics:
+SUMMARY: A study has been completed which evaluates the impact of the cigarette maker on a
+number of finished cigarette characteristics for a standard blend which contained variable levels of
+four different types of processed tobaccos: G7 (prepared with the G7-1 formulation on the
+Fourdrinier line at Shed 181), G19-1, CRES (cut rolled expanded flue-cured stems produced at
+Shed 113), and SPS (stems which were conditioned, cut, sent through the DIET expansion process
+and shredded). Finished cigarette characteristics were measured as the level of inclusion of each of
+these processed tobaccos was varied from 0-40% of the cigarette blend. The impact of the maker
+on the longs, middlings and fnes in the tobacco blends and filling values of the blends was assessed
+by measuring them before and after the maker.
+G7, G19 and SPS were found to survive the maker without a significant adverse effect (a
+lowering) on longs when compared to the standard cut filler blend. CRES was found to have a
+negative impact on longs, resulting in a disproportionate reduction in the finished cigarette longs
+
+pgNbr=14
+INTRODUCTION:
+A comparison of the cigarettes made by Philip Morris, Inc., with those made by RJR has been
+made ("Analysis of PM's Generic Products Relative to Similar RJR Products", Interoffice
+Memorandum, H. J. Young to G. T. Burger, July 22, 1993). One conclusion from this study was
+that, if the ratio of "longs" to °middlings" or "fines" in the finished products could be maintained at a
+higher level than currently found, it might be possible to make cigarettes without using expanded
+tobacco at weights comparable to those found in cigarettes incorporating expanded tobacco (PD
+Report 93-348). The importance of this finding is that there are significant costs associated with all
+tobacco expansion processes which might be avoided if acceptable cigarettes can be made at the low
+weights normally found in cigarettes with high expanded tobacco inclusion levels, but without the
+use of expanded tobacco. To understand how increasing the longs-to-fines ratio could be
+accomplished, it was first necessary to develop an understanding of the impact of the making
+operation on strand lengths for each of the blend.components found in cigarettes, i.e., a "survival
+rate" through the maker for each of these components.
+Work completed earlier this year was directed towards understanding and quantifying the
+survival rates (the ability to go through the maker without excessive degradation) for Fourdrinier-
+produced G7 of varying lengths and widths through the cigarette making operation. From this work,
+optimal cut widths of between 16 and 32 cuts per inch and lengths of approximately 0.50 to 1.0 inch
+were found and reported (PD 93-348). For strands in these length and width ranges, G7 produced
+on the Fourdrinier line at Shed 181 was found to survive the making operation without a significant
+increase in the amount of fines produced. The purpose of the current study was to assess in a similar
+manner the survival rates versus inclusion levels for optimally cut G7 and other types of processed
+tobaccos, specif cally G19 and several types of cut puffed stems, through the cigarette maker and to
+compare their survival rates with a standard strip blend.
+EXPERIIM ENTAL:
+Finished blended strip (1000 lbs.) of the composition shown in Table I below was prepared and cut at 28 cuts per inch; this will be referred to as the control cut filler blend. The
+Table I.
+Strip Filler Blend
+Co»oone .n..t Iil -
+~..~	1)1 y V4'..cigltt, %
+.. +.,...,~. _
+KG1	5.9
+KG2	16.5
+_ KG-0	7.1
+CGI	16.2
+CCJ 1-0	12.7
+CG3	41.6
+
+pgNbr=15
+Table I
+Slohes and__ Tests for Slopes=0
+		Slopes G7	G19	CRES SPS	G7	G19	CRES SPS
+Measure		piffer Slone Slohe Slope Slope p	k	k	P
+					
+Before	Longs	.0001	.043	-.365	-.457	-.216	.36	.0001	.0001	.0002
+Making	Mids	.0001	-.008	.199	.243	.168	.78	.0001	.0001	.0001
+	Fines	.0001	-.035	.171	.206	.057	.08	.0001	.0001	.0070
+	Fill Value	.0001	.483	.11	.50	1.97	.26	.0001	.0223	.0003
+Before	Longs	.0001	.133	-.337	-.634	-.291	.17	.0032	.0001	.0082
+Making	Mids	.0001	-.075	.159	.349	.189	.21	.0148	.0001	.0055
+(x 100%)	Fines	.0001	-.056	.165	.286	.108	.14	.0006	.0001	.0104
+After	Longs	.0001	.212	-.192	-.602	-.135	.0161	.0260	.0001	.10
+Making	Mids	.0001	-.156	.011	.208	.041	.0049	.81	.0006	.38
+	Fines	.0001	-. 067	.162	.400	.084	.10	.0011	.0001	.0478
+	Fill Value	.0001	.383	.56	.37	1.94	.13	.0001	.13	.0001
+Change	Longs	.38	.079	.145	.032	.155	.32	.08	.68	.06
+During	Mids	.44	-.081	-.148	-.141	-.148	.10	.0071	.0093	.0071
+Making	Fines	.0162	-.011	-.003	.114	-.025	.79	.95	.0127	.54
+	Fill Value	.77	.002	.559	.159	.082	.99	.34	.78	.89
+Weight		.0001	.0019	-.0043	-.0017	-.0039	.07	.0006	.08	.0012
+Circum.		.70	-.0011	-.0009	.0002	.0001	.40	.52	.90	.96
+Firmness		.33	.023	-.022	-.020	.018	.46	.47	.50	.55
+Draft		.0018	.53	2.01	-.20	1.30	.24	.0006	.66	.0109
+Ruturate		.0003	.19	-.01	.28	.19	.0012	.75	.0001	.0011
+Puffs		.0109	-.016	-.051	-.048 '	-.076	.27	.0033	.0047	.0002
+23
+
+pgNbr=16
+tobaccos are an important factors to consider when adding these components to tobacco blends at
+higb levels.
+Parf.s	Burn Rntc	Puffs	TPM nig/cig.	Nicotine	TarfPufl'
+_	ni /ni.u..a	~i0.		/Cl •	
+Control	51.22	9.8__	29.5	2.49	2.51
+10ONO G7	50.45	9.6	26.3	2.04	2.26
+20°io G7	58.38	8.4	28.1	1.99	2.75
+30°io G7	54.67	9.5	23.3	1.5	2.06
+400/o07	59.62	8.6	24.5	1.7	2.40
+10% G 19	51.00	__
+8.9	27.3	2.05	2.52
+20%G19	51.94	8.0	23.3	1.66	2.41
+30% G19	50.32	8.4	21.7	1.48	2.14
+40% G19	50.64	7.2	22.2	1.45	2.48
+10% CRES	51.93	9.7	29.1	2.32	2.50
+20% CRES	56.64	8.5	23.8	1.76	2.32
+30% CRES	60.18	7.8	21.3.	1.37	2.29.
+40% CRES	62.51	7.4	20.1	1.20	2.26
+1 0%, SPS	55.32	8.0	25.3	2.05	2.56
+20% SPS	56.58	7.2	21.8	1.51	.2.51
+30%. SPS	56.96	6.9	18.1	1.14	2.16
+400/0 SPS	57.76	7.1	16.8	1.04	1.95
+CONCLUSIONS AND RECOMMENDATIONS
+A study has been completed which evaluates the impact of the cigarette maker on a number
+of finished cigarette characteristics for a standard blend which contained variable levels of 4 different
+types of processed tobaccos: 67 (prepared with the G7-1 formulation on the Fourdrinier line at shed
+181), G19-1, CRES (cut rolled expanded flue-cured steins), and SPS (stems which were
+conditioned, cut, sent through the DIET expansion processand shredded). Finished cigarette
+cliaracteristics were measured as the level of inclusion of each of these processed tobaccos was
+varied from 0-40% of the cigarette blend. The impact of the maker on the longs, middlings and fines
+in the tobacco blends and filling values of the blends was assessed by measuring them before and
+after the maker.
+67, G19 and SPS were found to survive the maker without a significant adverse effect (a
+lowering) on longs when compared to the standard cut fillet blend. CRES was found to have a
+negative inypact on longs, resulting in a disproportionate reduction in the finished cigarette longs and
+the highest level of fines. However, CRES material. which will be produced on the new line at
+Tobaccoville is expected to be a much improved product over this which was produced on the
+Table VII.
+Smoke Analyses
+15
+
+pgNbr=17
+Figure 5.
+CRF,S LIongs Survival Rate
+0.6
+0
+Ratio
+1 r----- -----
+0.8
+--.... _
+~ _. . .... ....__....._ ___.......X
+x
+0.4
+0.2
+0 10 ~ 20 '- 30
+% Inclusion
+-X-After-Making to Before-Making Ratio
+Figure 6.
+SPS Longs Survival Rate
+1
+0.8
+0.6
+Ratio
+40 50
+........... ............. .... ........ ...............X.............. ......._.... .. ...... _.__.......,....._.._................ .........
+--~:-._.-
+x
+............... ..... ..... ......... ......................... ......... ._.............. ............................... ....................
+0.4
+0.2
+0 10 20 30 40 50
+% Inclusion
+4E-After-Making to Before-Making Ratio
+0
+samples the slopes of these lines show a positive trend. This indicates a survival rate similar to the .
+cut filler portion of the blend. And although the longs decreased significantly for G19 and SPS, the
+decrease is no more than would be expected from the level of inclusion in the blend.
+Table IV gives the slopes for each of the lines in Figures 3-6 along with the intercept values,
+correlation coefficients and P-values at the 95% confidence level. (Appendix II contains the
+complete statistical analyses for survival rate determinations.) While the slope is an indicator of
+10
+
+pgNbr=18
+weights had to be maintained at a somewhat constant level, and in the case of CRES, a slightly more
+firm cigarette was produced at a fairly uniform weight and draft. These data then confirm the
+conclusions reached from longs and filling values and suggest that G19 and SPS offer opportunities
+for weight reductions at fixed firninesses, while G7 and CItES are comparable in their impact on final
+cigarette weights and filling values, contributing little in a positive manner.
+Table VI contains the results of analyses of the various tobacco blends tested. The percent
+nicotine decreased with the incremental addition of processed tobaccos to the control blend. The
+total sugars are not affected by the incremental increase of processed tobaccos but they are effected
+by the specific processed t;obacco added, i.e., % total sugars for CRES &gt;SPS&gt;G7= G19. The
+moistures for all blends were in the 11.5 to 12.7% range, with the lowest moisture equilibration
+values being found for samples containing the two highly expanded tobacco types (G19 and SPS).
+Parts	% M.oistuure	% Nicotioc	°fo' Rc.c.i, Sxt gars	% To.t._,Su ars '
+C.ontrol	12.00	_ 2.76	7.9	8.6
+10% G7	12.76	2.50	6.7	7.5
+20% G7	12.58	2.43	6.7	7.9
+30% G7	12.51	2.20	6.4	7.3
+40%_G7	12.42
+-	2.06	7.1	7.7
+10% G 19	12.72	-- 2.62	7.4	8.2
+20% G19	12.27	2.46	5.9	7.0
+30% G19	11.79	2.45	6.7	8.0
+40% G19_	11.49 _	2.30
+i	5.9	6.7
+10°,/o CRES	11.60	2.66	9.6	9.9
+20°,/o CRES	11.92	2.43	8.8	9.6
+30% CRES	11.62	2.13	8.3	9.8
+40% CRES	12.45	_
+1.89	8.4	9.9
+10% SPS	11.56	_
+2.56	_
+8.0	9.0
+20% SPS	11.50	2.37	8.4	9.7
+30% SPS	11.66	2.13	7.7	8.8
+40% SPS	11.79	1.94	8.3	9.2
+Table VII give the results of the smoke analyses on cigarettes prepared from each of the -
+tobacco blends used in the test. The burn rate increased with each incremental addition of G7 and
+CRES but remained constant with the increased addition of G19 and SPS. The puff count, smoke
+nicotine and total particulate material (TPM) analyses showed a decreasing trend with an increase in
+the processed tobaccos. Although it was not the purpose of this test to address specifically the issues
+of burn rate and puff count, in general the trend of decreased puff count with increased burn rate was
+noted. Reductions in puff count or increases in burn rate with increased inclusion levels of processed
+Table VI.
+Tobacco Anal ~s~ es on Test Blends
+14
+
+pgNbr=19
+slope afler making than before making, therefore less sensitivity), but increased generation of fines
+with CRES. This raises questions about using this material at anything but low levels.
+Filling-Value
+• Significant increases in before mak i~ filli~~ value were observed for G19, CRES, and SPS.
+(Note that 100% measure is available only for CRES, providing much greater sensitivity than for
+the other components). The slope for G19 was greater than any of the others, and the slope for
+SPS was greater than that of CRES and G7, which were not different.
+• Significant increases in after makin fiIling vAlue were observed for G19 and SPS. The slope for
+Gl9 was greater than any of the others, and the slope for SPS was greater than that of CRES and
+G7, which were not different.
+• No significant effects of inclusion levels on change in fiWng value were found for any of the
+materials. This is saying that the before and after making slopes are not significantly different. .
+However, note (from Figure 12) the result at 40% G19, which shows very little change in filling
+value (due to the low value before making). The other points suggest a reduction in change (i.e.,
+greater sensitivity to inclusion level before making than after making) for G19.
+Overall, while after making values were less than before making values, the relationship between
+filling value and inclusion level did not change significantly through the making process.
+Other Measures
+• Weia;ht: decreased with increasing inclusion levels of G19.and SPS but was not significant for G7
+or Cl~'sS. This was related to the increased filling values observed for these materials. The
+slopes for G19 and SPS were not different from each other, but were both different from those of
+G7 and CRES. The slope for G7 was positive (increasing weight with increasing level) and was
+significantly greater than that of CRES, which was negative (decreasing weight with increasing
+level).
+Slopes for circumference and firmness were not significant for any of the materials.
+• Draft increased significantly with inclusion level for G19 and SPS but was not significant for G7
+or CRFS. The slope for 619 was greater than those of G7 and CRES, and the slope for SPS
+was greater than that of CRES.
+• Burn rate increased significantly with inclusion level for G7, CRES, and SPS. The slope for G19
+was less than those of the other three materials, which were not different from each other.
+• Puffs decreased significantly with inclusion level for G19, CRES, and SPS. The slope for G7
+was less than those of the other three materials, which were not different from each other.
+1) l
+
+pgNbr=20
+SUMMARY OUTPUT
+_ ftression Statistics __
+Multiple R 0.944002419
+R Square 0.891140566
+Adjusted R Square 0.854854088
+Standard Error 0.026529084
+Observations 5
+
+ANOVA
+CRES Longs
+SS MS F SiQnif cance F
+Regression 1 0.017284066 0.017284 24.55848 0.015772693
+Residual 3 0.002111377 0.000704
+Total 4 0.019395443
+	Coe rcients	Standard Error	t Stat P-value Lower 95%	Upper 95%
+Intercept	0.6906226	0.02054934	33.60802 5.79E-05 0.625225366	0.756019834
+% Inclusion	-0.00415741	0.000838923	-4.95565 0.015773 -0.006827242	-0.00148758
+SUMMARY OUTPUT		SPS Longs		
+Re ression Statistics				
+
+Multiple R	_
+0.369802166				
+R Square	0.136753642				
+Adjusted R Square	-0.150995144				
+Standard Error	0.062875799				
+Observations	5				
+ANOVA					
+		SS _	MS	F	Significance F
+Regression	1	0.001878851	0.001878851	0.475253585	0.540116593
+Residual	3	0.011860098	0.003953366		
+Total	4	0.01373895			
+_ _	Coe ficients	Standard Error	t Stat	P-value	Lower 95%	Upper 95%
+Intercept	0.68199698	0.048703384	14.00307169	0.00078865	0.52700093	0.83699303
+% Inclusion	0.001370712	0.001988307	0.689386383	0.540116593.	-0.004956975	0.007698399
+V1
+N
+26 W
+W
+
+pgNbr=21
+survival rate, the intercept gives the survival rate with no processed tobacco for each test part. From
+this table, the relatively high negative correlation coefficient for CRES, combined with the negative
+slope oft.he line in Figure 6, is a strong indicator that the maker is causing an inordinate amount of
+breakdown in the longs in the tobacco. No such trends occur with the other three types of processed
+tobaccos.
+Pi occssed Touacco	Sw vbval Rate	Intercept	Corrbaation	p-Value
+
+
+----	3)
+~10
+~~)C x 10-		
+
+Coefficient	
+
+95% Contldence
+
+G7	
+0.760	0.718	0.353	0.560
+
+G19	
+1.85	0.655	0.805	0.100
+
+CRF S	
+-4.l 6	0.691	-0.944	0.016
+
+SPS
+- -	
+1.37
+_~	0.682	0.370	0.540
+The values for the slopes in Table IV indicate that the blends containing G7, G19 and SPS
+might be expected to contain somewhat more longs after.making than would be anticipated from the
+blend alone, although statistically these slopes, with P-valuesin excess of 0.05 are not significant at
+the 95% confidence level. That the survival rate decrease for CRES has a P-value of less than 0.05
+indicates tliat. the drop in after-making longs relative to the before-making longs is significant and
+further that the negative slope of this line is also significant.
+Finally, since fines are produced during the making operation, it would be meaningless to .
+calculate a "survivalrate" for fines. Instead the data were examined for significance in the increase
+of fines for both the before-making and after-making samples. Statistically there were significant
+increases in before-making fines for GI 9, CRES and SPS. This was to be expected from the blending
+step since all of these processed tobaccos had high initial levels of fines. Both CRES and G19 had
+significantly greater fines in the before-making samples than SPS, but both also had significantly
+greater fines in the 100% processed tobacco samples (-24% vs. 10%). However, after making, the
+fines increase for CRES was signilicantly greater than for G19 or SPS, and all three were
+significantly greater than for the Fourdrinier-produced G7. Moreover, the change in the fines from
+before-making to after-making increased significantly for CRES but not for any of the other
+materials, indicating that the maker may actually be producing fines from CRES. .
+Filling Values
+Filling value determinations for each of the test parts both before and after making are shown
+in Table 0/ below. The last two columns show the filling values as corrected to 12.5% moisture.
+The average value found for the control blend before making was 473 cc/100g and after making was
+408 cc/100g. This constitutes a drop of approximately 14% in filling value through the maker.
+Statistically significant increases in before-making filling values were found for .G19, CRES and SPS.
+The slope for G19 was greatest and was significantly higher than any of the others. SPS was greater
+Table IV
+I°ngsSurvival Rates for Processed Tobaccos
+
+
+
+11
+
+pgNbr=22
+Appendix I
+Statistical Treatment of Data
+RJR INTEROFFICE MEMORAND UM
+To: Dr. W. L. C:lapp ])ate: January 20, 1994
+From: Mr. W. T. Morgan
+Effects of Cigarette Making on Tobacco Blends Containing Processed Tobaccos
+Summary:
+Vaiying levels of processed tobacco products (G7, G19, CRES, and SPS) were added to a base
+blend. Particle size and filling value measurements were taken before and after making, and some
+additional cigarette parameters were measured. Results showed
+• Particle size distribution after making improved with increasing levels of G7 (more longs, fewer
+mids), but woisened with increasing levels of the other three materials before and after making .
+(fewer longs and more mids and fines), especially for CRES.
+• Change in longs during making was not significant (the reduction in longs did not depend on
+inclusion level) for any of the materials. Change in mids during the making process decreased
+with inclusion level for G19, CRI:S, and SPS, since the slope before making was greater than
+that after making, so that the maker is acting as an "equalizer" in this sense. Change of fines
+during the making process increased for CRES, indicating increased generation of fines with
+inclusion level. Overall, high levels of CRES appear undesirable from a particle size perspective.
+• Before making filling value increased with inclusion level for G19, CRES, and SPS, while after
+making filling capacity increased witb inclusion level only for G19 and SPS. Change in filling
+capacity during making did not change significantly with inclusion level.
+• Cigarette weight decreased and draft increased significautly with increasing inclusion level for
+Gl9 and SPS but did not change significantly for G7 or CRES. Circumference and firmness
+linear effects were not significant for any of the materials.
+• Bum rate increased and number of puffs decreased with increasing inclusion level for G19, CRES
+and SPS.
+Overall, increasing the level of G7 had no detrimental eflect on finished cigarette properties observed
+here relative to the control blend. Increasing levels of G19, CRES, and SPS resulted in worsening
+particle size distribution than the control blend, while Gl9 and SPS resulted in improved filling
+capacity, reduced weight and increased draft. G19, CRES, and SPS also resulted in increased bum
+rate and reduced puff count.
+18
+
+pgNbr=23
+• Overall, increasina levels of G19, CRES and SPS resulted in before makina particle size
+degradation _relAtive to the control blend witli decreased longs and increased mids and fines
+(Wova for CRES , while tlie Particle size distribution~ not chanae significantly with G7
+inclusion rate.
+• Afler rriaking longs decreased significantly with increasing inclusion rate for Gl 9 and CRES and
+increased significantly for G7, while the slope for SPS was not significant. T'he slope for G7 was
+different from those of the other 3 materials, while the slope for CRES was greater (in
+magnitude) than for GI 9 or SPS, which were not different.
+• After rriaking mids increased significantly with increasing inclusion rate for CRES, and decreased
+significantly with inclusion rate for G7, while slopes for G19 and SPS were not significant. The
+G7 slope was significantly different from those of the other three materials, and the CRES slope
+was greater than those of G19 and SPS.
+• After making fines increased significantly with increasing inclusion rate for G19, CRES, and SPS,
+while the slope for G7 was not significant. The G7 slope was significantly different from those of
+the ot:her three materials, and the CRES slope was greater than those of G19 and SPS, which
+were not different.
+• Overall, increasing levels of G19, CRES and SPS resulted in after makingparticle size
+de~radation relative to the control blend with decreased longs and increased mids and fines
+worst for CRES while the Particle size distribution actually imnroved with increasing G7
+inclusioi&gt; (greater longs and fewer mids).
+• Change_in_lorags was not significant for any of the materials, and none were different from each
+other. The graph shows an upward trend for some materials, but it is not significant based on the
+data here.
+• Chanae_in mids decreased significantly for G19, CRES, and SPS. This is saying that the slope
+before making was greater than the slope after making for these materials (i.e., the maker acts as
+an "equalizer" to some extent). While the slope for G7 was not significant, it was in the same
+direction as the others so that none of these slopes are different from each other.
+• Chanae in fines increased significantly for CRES and was not significant for the other materials.
+This was because the slope before making is less than the slope after making for CRES (i.e., the
+maker increases the fines for this material). It should be noted from Figure 9 that the l 1%
+increase in fines before and after making observed at the 40% inclusion rate were driving this
+result, which may not be correct at levels below 30%. Accordingly the slope for CRES was
+different from those of the other three materials, which were not different from each other.
+Overall, these particle size data showed some improvement in longs with increasing G7 levels after
+making, while particle size distribution suffered with increased levels of the other materials (reduced
+longs and. increased.mids and fines). CRES showed the greatest degradation with increased level.
+The making process seemed to reduce the effect of varying inclusion levels on mids increase (smaller
+20
+
+pgNbr=24
+SUMMARY OUTPUT		G7 Fines				
+Regression Statistics				
+Multiple R	0.745385688					
+R Square	0.555599824					
+Adjusted R Square	0.407466432					
+Standard Error	1.213626035					
+Observations	5					
+ANOVA						
+	df	SS	11IS	F	Significance F	
+Regression	1	5.524320941	5.524321	3.750672	0.14819494	
+Residual	3	4.418664461	1.472888			
+Total	4	9.942985402				
+						
+	Coef icients	Standard Error	t Stat	P-value	Lower 95%	Upper 95%
+Intercept	1.132908948	0.940070685	1.205132	0.314545	-1.858818336	4.124636232
+% Inclusion	0.074325776	0.038378225	1.936665	0.148195	-0.047810979	0.196462531
+SUMMARY OUTPUT
+Regression Statistics
+Multiple R	0.815381634
+R Square	0.66484721
+Adjusted R Square	0.553129613
+Standard Error	0.278511489
+Observations	5
+ANOVA	
+	df
+Regression	l
+Residual	3
+Total	4
+	
+	Coefflcients
+Intercept	2.21478792
+% Inclusion	-0.02148539
+G19 Fines
+SS MS F Significance F
+0.461621998 0.461622 5.951141 0.092541834
+0.232705949 0.077569
+0.694327947
+Standard Error t Stat P-value Lower 95% Upper 95%
+0.215734072 10.26629 0.001971 1.528225176 2.901350664
+0.008807307 -2.4395 0.092542 -0.049514197 0.006543416
+27
+
+pgNbr=25
+Introduction
+I have reviewed the data you provided concerning tobacco blend and cigarette particle size, filling
+value, and some additional cigarette parameters, for blends using various inclusion rates of G7, G19,
+CRES, and SPS. Before and after making results were used to characterize the effect of the making
+process on blend particle size and filling value.
+Statistical Analysis
+Since the blends evaluated were mixes of.a.base blend Mth varying levels (10%, 20%, 30%, 40%,
+and sometimes 100%) of each of the four processed tobacco products (G7, GI 9, CRES, and SPS),
+analysis consisted of testing for significant linear effect of inclusion level of each material. Slopes for
+each material were estimated (including the 0% level control product for each line) and tested for
+significance (i.e., different from 0), and then compared to each other on a pairwise basis. Tables I
+and II present slope estimates and p-values for significance tests. P-values of.05 were considered
+significantl,y.different, so that p-values in this table of 0.05 or less were judged significant. Figures 1-
+l 8 display the results graphically.
+Particle Size
+Particle size was evaluated by looking at results before making, after making, and the increase
+observed during making for each processed tobacco product. Before making particle size was
+analyzed based on all the data (including the 100% blends), and then repeated for only the 0-40%
+blends, since it may not be reasonable to assume that a straight line describes the behavior of the
+system over the entire 0-100% range. Results showed that
+• I3efore makinglo_ W decreased significantly with increasing inclusion rate for G19, CRES, and
+SPS, while G7 showed increasing behavior, which was not significant. Accordingly, the slope for
+G7 differed significantly from those of the other three materials, for which CRES showed the
+s1iarIrest decline, followed by G19 and SPS. Differences between these three products varied
+depending on whether the 100% values were included, with CRES and G19 both significantly
+larger (in magnitude) than SPS but not different from each other when all data were included,
+while CRES was larger in magnitude than G19 and SPS, which were not different from each
+other, for the restricted data set.
+Before making_mids increased significantly with inclusion rate for G19, CRES, and SPS while the
+G7 slope was not significant. The G7 slope was sigiufioantly different from the other three, with
+the greatest slope for CRES, significantly greater than that of SPS when all data were included,
+and greater than both GI 9 and SPS for the restricted data set.
+• Before makiugfines increased significantly with inclusion rate for G19, CRES, and SPS, while
+the G7 slope was not significant. Again, the G7 slope was different from the other three, with
+the greatest slope for CRES and G19, both greater than that of SPS for the complete data set,
+while the CRES slope was greater than those of both G19 and SPS for the restricted data set.
+19
+
+pgNbr=26
+than CRES, which was not significantly different from G7. Significant increases in after-making
+filling values were found for both G19 and SPS; CRES and G7 were not different.
+
+Part	~~ % Moisture	klitli~~ VolrIn)c'~~ ~	
+Corrected pShia Volunne ''
+_	
+~'rc-h7Akcr	
+Po.st Mztkcr _	~^
+Prc-lllstkGr	Post-Maker	Prc-Maker	Post-Maker '
+Control	
+12.97	
+l 1.95	
+459	425	473	408
+10% GI	
+13.17	
+12.36	
+460	427	482	423
+20% G7	
+14.02	
+12.10	
+451	434	499	422
+30% G'/	
+13.68	
+12.32	
+454	431	492	426
+40% G'I	13.53	11.71	459	433	492	409
+10% Gl9	13.78	12.43	_
+478	443	_
+521	441
+20% G19	13.57	12.24	513	476	551	467
+30% G19	14.36	12.21	540	521	610	510
+40% G19	_ 12.18	12.07	578	575	565	558
+10% CRES	12.79	12.01	466	431	475	416
+20% CRES	12.66	11.31	474	447	479	410
+30% CRES	12.84	10.92	489	459	501	408
+40% CRtiS	11.97	11.72	504	455	485	430
+100% CRES	_ 14.63	_	
+464		533	
+
+10% SPS	
+12.70	
+11.66	481	
+447	
+488	
+421
+
+20% SPS	
+12.97	
+11.59	498	
+469	
+514	
+439
+
+30% SPS	
+12.78	
+11.62	529	
+491	
+539	
+461
+40% SPS	12.42	11.'/9		518	559	492
+* cc/100g
+The impact of the maker on filling values is graphically shown in Figures 7 and 8. These data
+clearly sliow that G19 and SPS contributed in a positive manner to the filling values both before and
+after the maker, whereas. G7 and CRES contributed very little, if any, to either filling value; statistical
+analysis supports this observation. The data also show that there is a consistent drop in filling values
+going through the maker of between 12% and 14%, but statistically, this drop through the maker is
+not affected by the inclusion level. However, the fact that both the longs and filling values decreased
+as a result of the making operation suggests that a positive relationship may exist between strand
+length and filling values. Finally, of the two types of puffed. stems tested, only the shredded DIET-
+puffed stems (SPS) contributed to increases in filling values. The impact of CRES on filling value
+was at best negligible.
+From the cigarette data shown in Table II earlier in this report, the finished cigarette
+characteristics are entirely consistent with the findings on longs, fines and filling values. As each
+series were made on the cigarette maker, the instructions to the operator were to make as "good" a
+cigarette as possible, allowing weight and firmness to float as necessary. The final results showed
+that the best cigarettes which were made with Gl9 and SPS were done so if the weights were
+
+Table V.
+Fillin Value Determinations
+
+
+12
+
+pgNbr=27
+			tIz				
+80'	IF 98'	£I00'	Lt~tiO'	61£0'	6010'		spnd
+60'	8000' 1000'	96'	80'	8000'	£000'		als.uung
+17900'	£[' £000'	I['	Zi'	8500'	8100'		Ue.r(I
+£Z'	IZ' 96'	68'	81'	91'	££'		ssauur.il~
+b6'	617' Sb'	8£'	S£'	V8'	OL'		umo.il~
+££V0'	89' 8610	1000'	bZ00'	1000'	1000'		3ll~~aM
+06'	Z17' OS'	68'	6L'	S£'	LL'	an[gA Il?3	
+9b00'	65' LZiO'	£L'	8800'	68'	Z910'	sau[3	!911131sw
+68'	66' 68'	81'	ZZ'	81'	tiP'	sptW	Var.in(I
+b['	06' LI'	b£'	9S'	[b'	8£'	sifacrl	aVuuit:)
+1000'	1000' 1000'	1000'	66'	1000'	1000'	an[gA 11N	
+1000'	L0' 1000'	ZZ00'	1000'	1000'	1000'	saai3	
+L£00'	£S' 1100'	1100'	1000'	L£00'	1000'	spiW	VinKew
+1000'	817' Z000'	8000'	1000'	Z000'	i 000'	siluo-I	.cajjy
+V000'	S i' V900'	L000'	1000'	1000'	1000,	sanc3	(%00 [ X)
+0910'	19' 1900'	9000'	1000'	5100'	1000,	spiW	!3urIM
+££00'	£9' E800	L000'	1000	£000	1000'	s9uo-I	aJolag
+8100'	6ZZ0' 1000'	V900'	L6'	1000'	I 000'	anlgA IllA	
+1000'	1000' £1 '	8000'	1000'	1000'	1000'	sauca	
+L9b0'	8£' £Z'	1000'	1000'	1000'	I 000'	spiW	vulAeN
+5000'	9910' Z1 '	£000'	1000'	1000'	1000'	s&amp;uoZ	aJo1aH
+SdS SdS S3Wa 	SdS S:RIO	610 Ja13KI		a.cnssaw
+^ Sa2ID A 619 ^ 610	^ LJ ^ LJ	A LO sadoIS		
+sacCols Io uosff9-cluz6-5
+11 aiQs.L
+
+pgNbr=28
+</ot>
+</LTDLWOCR>
