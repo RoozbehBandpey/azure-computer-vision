@@ -32,6 +32,7 @@ namespace OCRVisionApp
             //OCRVision.DetectObjectsUrl(client, DETECT_URL_IMAGE).Wait();
             //OCRVision.DetectObjectsLocal(client, localImage).Wait();
             OCRVision.BatchReadFileUrl(client, EXTRACT_TEXT_URL_IMAGE).Wait();
+            OCRVision.BatchReadFileLocal(client, localImage).Wait();
         }
     }
 }

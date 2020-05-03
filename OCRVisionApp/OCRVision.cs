@@ -316,5 +316,57 @@ namespace OCRVisionApp
             }
             Console.WriteLine();
         }
+
+        public static async Task BatchReadFileLocal(ComputerVisionClient client, string localImage)
+        {
+            Console.WriteLine("----------------------------------------------------------");
+            Console.WriteLine("BATCH READ FILE - LOCAL IMAGE");
+            Console.WriteLine();
+
+            // Helps calucalte starting index to retrieve operation ID
+            const int numberOfCharsInOperationId = 36;
+
+            Console.WriteLine($"Extracting text from local image {Path.GetFileName(localImage)}...");
+            Console.WriteLine();
+            using (Stream imageStream = File.OpenRead(localImage))
+            {
+                // Read the text from the local image
+                BatchReadFileInStreamHeaders localFileTextHeaders = await client.BatchReadFileInStreamAsync(imageStream);
+                // Get the operation location (operation ID)
+                string operationLocation = localFileTextHeaders.OperationLocation;
+
+                // Retrieve the URI where the recognized text will be stored from the Operation-Location header.
+                string operationId = operationLocation.Substring(operationLocation.Length - numberOfCharsInOperationId);
+
+                // Extract text, wait for it to complete.
+                int i = 0;
+                int maxRetries = 10;
+                ReadOperationResult results;
+                do
+                {
+                    results = await client.GetReadOperationResultAsync(operationId);
+                    Console.WriteLine("Server status: {0}, waiting {1} seconds...", results.Status, i);
+                    await Task.Delay(1000);
+                    if (i == 9)
+                    {
+                        Console.WriteLine("Server timed out.");
+                    }
+                }
+                while ((results.Status == TextOperationStatusCodes.Running ||
+                    results.Status == TextOperationStatusCodes.NotStarted) && i++ < maxRetries);
+
+                // Display the found text.
+                Console.WriteLine();
+                var textRecognitionLocalFileResults = results.RecognitionResults;
+                foreach (TextRecognitionResult recResult in textRecognitionLocalFileResults)
+                {
+                    foreach (Line line in recResult.Lines)
+                    {
+                        Console.WriteLine(line.Text);
+                    }
+                }
+                Console.WriteLine();
+            }
+        }
     }
 }
