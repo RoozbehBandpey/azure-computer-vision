@@ -35,15 +35,6 @@ namespace OCRVisionApp
             string metadataJson = JsonConvert.SerializeObject(imageMetadata, Formatting.Indented);
 
             File.WriteAllText(JsonFilePath, metadataJson);
-
-            Console.WriteLine(metadataJson);
-
-            // serialize JSON directly to a file
-            //using (StreamWriter file = File.CreateText(JsonFilePath))
-            //{
-            //    JsonSerializer serializer = new JsonSerializer();
-            //    serializer.Serialize(file, imageMetadata);
-            //}
         }
 
 
